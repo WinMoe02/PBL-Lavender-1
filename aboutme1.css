@@ -1,0 +1,179 @@
+		*{
+			box-sizing: border-box;
+		}
+		.about_us_box{
+			display: flex;
+			width: 90%;
+			margin: auto;
+
+		}
+		.title{
+			width: 60%;
+
+
+		}
+		@media only screen and (max-width: 700px){
+			.about_us_box{
+				flex-direction: column;
+			}
+			.title, img{
+				width: 100%;
+			}
+		}
+		p{
+            font-size:20px;
+              margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+		}
+    h1{
+        font-size:30px;
+              margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+   
+    }
+  h3{
+      font-size:20px;
+              margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+  }
+    
+		body {
+
+  background-color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: violet;
+}
+
+.topnav a.active {
+  background-color: royalblue;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border box;
+  font-family: 'Poppins', sans-serif;
+  }
+ .container-section .social{
+  margin-top: 40%;
+}
+.container-section .ending{
+    padding: 20px;
+    border-color: gray;
+    border-width: 20%;
+  }   *{
+      box-sizing: border-box;
+    }
+    .about_us_box{
+      display: flex;
+      width: 90%;
+      margin: auto;
+
+
+    }
+    .title{
+      width: 60%;
+    }
+    .a{
+      border-width: 20px;
+      padding: 30px;
+
+}
+    @media only screen and (max-width: 700px){
+      .about_us_box{
+        flex-direction: column;
+      }
+
+    .content-section .content .button{
+  margin-top: 30px;
+  }
+.content-section .content .button a{
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+  background-color: #a52a2a;
+  color: #fff;
+}
+.content-section .social{
+  margin-top: 40%;}
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+img{
+  float: left;
+  padding: 15px;
+}
+    
+ 

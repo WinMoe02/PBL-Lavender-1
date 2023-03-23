@@ -1,0 +1,39 @@
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+		body{
+			background: black;
+		}
+		div{
+			border: 2px solid black;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+		}
+		img{
+			float: left;
+			padding: 45px;
+			width: 250px;
+		}
+		.clearfix{
+			overflow: auto;
+		}
+		a{
+			text-decoration: none;
+			padding: 35px;
+		}
+	
